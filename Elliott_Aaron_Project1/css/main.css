@@ -43,56 +43,7 @@ a{
 
 }
 
-/* --------------------------------------------------
-Container -ZURB CSS GRID GENERATOR 
--------------------------------------------------- */
 div#container, div.container { position: relative; width: 1000px; margin: 0 auto;  }
-
-
-/* --------------------------------------------------
-Grid
--------------------------------------------------- */
-.column-row, .row { margin: 0 0 18px -20px; }
-.column, .columns { float: left; display: inline; margin: 0 0 0 20px; }
-
-.one { width: 65px; }
-.two { width: 150px; }
-.three { width: 235px; }
-.four { width: 320px; }
-.five { width: 405px; }
-.six { width: 490px; }
-.seven { width: 575px; }
-.eight { width: 660px; }
-.nine { width: 745px; }
-.ten { width: 830px; }
-.eleven { width: 915px; }
-.twelve { width: 1000px; }
-
-.offset-one-half { margin-left: 42.5px; }
-.offset-one { margin-left: 85px; }
-.offset-two { margin-left: 170px; }
-.offset-three { margin-left: 255px; }
-.offset-four { margin-left: 340px; }
-.offset-five { margin-left: 425px; }
-.offset-six { margin-left: 510px; }
-.offset-seven { margin-left: 595px; }
-.offset-eight { margin-left: 680px; }
-.offset-nine { margin-left: 765px; }
-.offset-ten { margin-left: 850px; }
-
-/* Clear the columns automagically, thanks @kneath */
-.column-row:after, .row:after, .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-* html .column-row, * html .row, * html .clearfix { height: 1%; }
-.column-row, .row, .clearfix { display: inline-block; }
-.column-row, .row, .clearfix { display: block; }
-
-/* IE6 Problems ---------- */
-body.ie .column-row { width: 1020px; }
-body.ie .eight .column-row { width: 680px; }
-body.ie .nine .column-row { width: 765px; }
-body.ie .ten .column-row { width: 850px; }
-body.ie .eleven .column-row { width: 935px; }
-body.ie .two-thirds .column-row { width: 700px; }
 
 .clear {
 clear: both;
