@@ -66,9 +66,17 @@ a:active{
 }
 
 /*MAIN STYLES*/
-div#container, div.container { position: relative; width: 1000px; margin: 0 auto;  }
+/*START GRID*/
+div#container, div.container { position: relative; width:100%; max-width: 1000px; margin: 0 auto;  }
 
 
+
+.column{float:left;}
+.column1-3{width:33.33%; height:auto;}
+.column2-3{width:66.66%; height:auto;}
+.columnWhole{width:100%; height:auto;}
+
+/*END GRID*/
 .clear {
 clear: both;
 display: block;
@@ -102,31 +110,26 @@ height: 0;
 .header h2{
 	display: inline;
 	float: left;
-
-
 }
 .nav-menu{
 	float: right;
 	width: auto;
-	padding:40px 0px;
+	min-width:300px;
+	padding:0px 0px;
 	margin:0;	
 
-}
-ul.main-nav{
-	padding:0;
-	margin: 0;
 }
 li.nav-btn{
 	padding: 5px 10px;
 	color:#fff;
 	font-size: 1em;
-	margin: 0px 10px;
+	margin: 40px 10px;
 	color:#fefefe;
+	display: inline-block;
 
 }
 
 /*SLIDER CSS*/
-
 
 .mask{
 	background-color:rgba(100,100,100,.25);
@@ -210,6 +213,8 @@ li.nav-btn{
 }
 #callout{
 	padding: 150px 0px;
+	height:500px;
+
 }
 #callout blockquote{
 	color:#dfdfdf;
@@ -222,7 +227,14 @@ li.nav-btn{
 	text-align: right;
 	color:#343434;
 }
-
+.coffee-image{
+	background-image:url(../images/milkandcoffee.jpg);
+	background-size:cover;
+	width:100%;
+	height:450px;
+	border:solid thin #f0f0f0;
+	box-shadow:0px 1px 1px #a0a0a0;
+}
 .colored-callout{
 	text-align: center;
 	background-image:url(../images/sky.jpg);
@@ -231,6 +243,8 @@ li.nav-btn{
 	padding-bottom: 300px;
 	max-height: 600px;
 	overflow: hidden;
+
+
 }
 
 .colored-callout strong{
