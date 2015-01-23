@@ -24,9 +24,7 @@ h1{
 
 }
 h2{ 
-
 	font-size: 2em;
-
 }
 p{
 	font-weight:300;
@@ -44,14 +42,11 @@ li{
 	font-family: 'Nunito', sans-serif;
 	margin: 0;
 }
-
-
 a{
 	text-decoration: none;
 	font-variant: none;
 	outline: none;
 	font-family: 'Nunito', sans-serif;
-
 }
 
 a:link,
@@ -78,12 +73,12 @@ div#container, div.container { position: relative; width:100%; max-width: 1000px
 
 /*END GRID*/
 .clear {
-clear: both;
-display: block;
-overflow: hidden;
-visibility: hidden;
-width: 0;
-height: 0;
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
 }
 
 .header-wrapper{
@@ -99,34 +94,30 @@ height: 0;
 	margin: 0px auto;
 }
 .header li{
-
 	font-size: 1.25em;
 	display: inline-block;
 	font-weight: 600;
 	margin-top: 10px;
 	margin-bottom: 0;
-
 }
 .header h2{
 	display: inline;
 	float: left;
 }
-.nav-menu{
+.nav {
 	float: right;
 	width: auto;
 	min-width:300px;
 	padding:0px 0px;
 	margin:0;	
-
 }
-li.nav-btn{
+p.navbtn{
 	padding: 5px 10px;
 	color:#fff;
 	font-size: 1em;
 	margin: 40px 10px;
 	color:#fefefe;
 	display: inline-block;
-
 }
 
 /*SLIDER CSS*/
@@ -141,18 +132,16 @@ li.nav-btn{
 
 }
 .slider{
-
 	position:relative;
 	overflow: hidden;
 	height:100%;
 	min-height: 800px;
 	border-bottom: solid medium #F0F0F0;
 	background-color: #000;
-
 }
 .slides{
 	width:100%;
-		height:100%;
+	height:100%;
 	min-height: 800px;
 	position:relative;
 
@@ -165,21 +154,17 @@ li.nav-btn{
 	position:absolute;
 	background-size: cover;
 	background-position: center;
-
 }
 .slideContent{
-	    margin-left: auto;
-        margin-right: auto;
-        width: 76%;
-        max-width:1000px;
-        font-family: 'Oswald', sans-serif;
- 
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 76%;
+    max-width:1000px;
+    font-family: 'Oswald', sans-serif;
 }
 .slide:first-child{
 	display:block;
 }
-
 #slideTitle{
 	color: #FBFBFB;
 	padding: 10px;
@@ -187,10 +172,7 @@ li.nav-btn{
 	position: absolute;
 	bottom:100px;
 	left: 200px;
-	max-width: auto;
 	font-variant: small-caps;
-
-
 }
 #slide_1{
 	background-image:url(../images/coffeewithhands.jpg);
@@ -209,12 +191,10 @@ li.nav-btn{
 	font-style: italic;
 	color:#343434;
 	text-indent: 0px;
-
 }
 #callout{
 	padding: 150px 0px;
 	height:500px;
-
 }
 #callout blockquote{
 	color:#dfdfdf;
@@ -243,16 +223,13 @@ li.nav-btn{
 	padding-bottom: 300px;
 	max-height: 600px;
 	overflow: hidden;
-
-
 }
 
-.colored-callout strong{
+.colored-callout  h1{
 	font-size: 2em;
 	color:#fff;
 	display: block;
 	margin-bottom: 80px;
-
 }
 
 .colored-callout .cta{
@@ -268,7 +245,39 @@ li.nav-btn{
 	background-color: rgba(245,245,245,0.5);
 }
 
+.menu_wrapper{
+	padding:150px 0px;
+	background:url(../images/coffee-repeat.png), -webkit-linear-gradient(left top, #990000 , #CC0000); /* For Safari 5.1 to 6.0 */
+	background: url(../images/coffee-repeat.png),-o-linear-gradient(bottom right, #990000, #CC0000); /* For Opera 11.1 to 12.0 */
+	background: url(../images/coffee-repeat.png),-moz-linear-gradient(bottom right, #990000, #CC0000); /* For Firefox 3.6 to 15 */
+	background:url(../images/coffee-repeat.png), linear-gradient(to bottom right, #990000, #CC0000); /* Standard syntax */
+	
+}
+.menu{
 
+}
+.menu h2{
+	color:#efefef;
+}
+.menu table{
+	padding:0;
+	margin: 0;
+	color:#efefef;
+}
+.menu td{
+	color:#efefef;
+	padding:10px 10px;
+}
+
+.menuRight{
+
+}
+.menuRight p {
+	color:#fff;
+	padding:100px 0px;
+	margin:0;
+	text-indent: 0;
+}
 /*FOOTER STYLES*/
 .footer-wrapper{
 	text-align: center;
@@ -282,7 +291,6 @@ li.nav-btn{
 	margin:20px 0px;
 	color:#a2a2a2;
 }
-
 .footer-wrapper p{
 	padding: 0;
 	margin:20px 30px 20px 0px;
