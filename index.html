@@ -6,12 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/main.css" rel="stylesheet" media="screen">
   <link href="css/normalize.css" rel="stylesheet" media="screen">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  
 
 </head>
 
 <body>
 
   <div class="form-mask">
+
+    <div class="exit">x</div>
 
     <form id="contact-us">
       <h3>Contact Us</h3>
@@ -34,7 +38,7 @@
       
       <div class="clear"></div>
 
-      <button>submit</button>
+      <button type="submit" value="Submit">submit</button>
       
       <div class="clear"></div>
     
@@ -56,13 +60,13 @@
 
           <a href="#"><p class="navbtn">About Us</p></a>
 
-          <a href="#"><p class="navbtn">Contact Us</p></a>
+          <a href="#" id="contact"><p class="navbtn">Contact Us</p></a>
 
-        </div>
-
-  		</nav><!-- end nav-->
-
-  	</div>
+        </nav><!-- end nav-->
+      
+      </div>
+  	
+    </div>
 
   </div>
   <!-- END HEADER -->
@@ -92,6 +96,7 @@
 
     </div><!-- slider container -->
 
+
   </div>
   <!-- END SLIDER WRAPPER -->
 
@@ -102,7 +107,7 @@
 
       <div class="column column2-3">
 
-        <div class="coffee-image"></div>
+        <div class="coffee-image"><img src="images/milkandcoffee.jpg" alt="coffee"></div>
 
       </div>
 
@@ -143,9 +148,13 @@
 
           <table class="menu-table">
 
-            <th colspan="2">Menu</th>
+            <tr>
+              <th colspan="2">Menu</th>
+            </tr>
             
             <tr>
+
+
 
               <td>Coffee</td>
         
@@ -222,5 +231,6 @@
   </div><!-- END FOOTER -->
 
 </body><!-- END BODY -->
+<script type="text/javascript" src="js/main.js"></script>
 
 </html>
