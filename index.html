@@ -1,54 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Aaron Elliott : Assignment 1</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/main.css" rel="stylesheet" media="screen">
-    <link href="css/normalize.css" rel="stylesheet" media="screen">
+<head>
+  <title>Aaron Elliott : Assignment 1</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/main.css" rel="stylesheet" media="screen">
+  <link href="css/normalize.css" rel="stylesheet" media="screen">
 
-  </head>
+</head>
 
-  <body>
-<!-- HEADER -->
-<div class="header-wrapper">
-  
-  <div class="container header">
-	
-    <h2>Hawk Coffee</h2>
+<body>
 
-    <div class="nav-menu">
+  <div class="form-mask">
 
-      <div class="nav">
+    <form id="contact-us">
+      <h3>Contact Us</h3>
+      
+      <label>First Name</label>
+      
+      <input type="text" name="firstname" required>
+      
+      <label>Last Name</label>
+      
+      <input type="text" name="lastname" required>
 
-        <a href="#"><p class="navbtn">Menu</p></a>
+      <label >Email</label>
+      
+      <input type="email" required>
+      
+      <label>Message</label>
+      
+      <textarea placeholder="type your message here"></textarea>
+      
+      <div class="clear"></div>
 
-        <a href="#"><p class="navbtn">About Us</p></a>
+      <button>submit</button>
+      
+      <div class="clear"></div>
+    
+    </form>
 
-        <a href="#"><p class="navbtn">Contact Us</p></a>
+  </div>
+  <!-- HEADER -->
+  <div class="header-wrapper">
+    
+    <div class="container header">
+  	
+      <h2>Hawk Coffee</h2>
 
-      </div>
+      <div class="nav-menu">
 
-		</div>
+        <nav class="nav"><!--nav-->
 
-	</div>
+          <a href="#"><p class="navbtn">Menu</p></a>
 
-</div>
-<!-- END HEADER -->
-<!-- WRAPPER  -->
-<div class="wrapper">
+          <a href="#"><p class="navbtn">About Us</p></a>
 
-  <div class="slider">
+          <a href="#"><p class="navbtn">Contact Us</p></a>
 
-    <div class="slides">
+        </div>
 
-      <div class="slide" id="slide_1">
+  		</nav><!-- end nav-->
 
-        <div class="mask">
+  	</div>
 
-          <div id="slide" class="slideContent">
+  </div>
+  <!-- END HEADER -->
 
-            <h1 id="slideTitle">amazingly hand crafted drinks</h1>
+  <!-- WRAPPER  -->
+  <div class="wrapper">
+
+    <div class="slider">
+
+      <div class="slides">
+
+        <div class="slide" id="slide_1">
+
+          <div class="mask">
+
+            <div id="slide" class="slideContent">
+
+              <h1 id="slideTitle">amazingly hand crafted drinks</h1>
+
+            </div>
 
           </div>
 
@@ -56,132 +90,137 @@
 
       </div>
 
-    </div>
-
-  </div><!-- slider container -->
-
-</div>
-<!-- END SLIDER WRAPPER -->
-
-<!-- CALLOUT  -->
-<div class="wrapper gradient-callout ">
-
-  <div class="container" id="callout">
-
-    <div class="column column2-3">
-
-      <div class="coffee-image"></div>
-
-    </div>
-
-    <div class='column1-3 column'>  
-
-      <blockquote>"The best coffee in town."</blockquote>
-
-      <h3>-Amy blond</h3>
-
-    </div>
-    
-  </div>
-  
-</div>
-<!-- END CALLOUT -->
-
-<div class="clear"></div>
-
-<!-- COLORED CALLOUT-->
-<div class="colored-callout">
-
-  <div class="container">
-    
-    <h1>Why Hawk Coffee?!</h1>
-
-    <a><p class="cta">About Us</p></a>
+    </div><!-- slider container -->
 
   </div>
+  <!-- END SLIDER WRAPPER -->
 
-</div>
-<!-- END COLORED CALLOUT -->
+  <!-- CALLOUT  -->
+  <div class="wrapper gradient-callout ">
 
-<div class="menu_wrapper">
+    <div class="container" id="callout">
 
+      <div class="column column2-3">
 
-  <div class="container">
-
-    <div class="column column2-3 menu">
-
-        <h2>Menu</h2>
-
-        <table>
-
-          <tr>
-
-            <td>Coffee</td>
-            <td>$1.50</td>
-
-          </tr>
-          <tr>
-
-            <td>Capacino</td>
-            <td>$3.50</td>
-
-          </tr>
-          <tr>
-
-            <td>Expresso</td>
-            <td>$3.75</td>
-
-          </tr>
-          <tr>
-
-            <td>The Hawk Special</td>
-            <td>$1.50</td>
-
-          </tr>
-          <tr>
-
-            <td>Angry Bird Gets the Worm</td>
-            <td>$4.50</td>
-
-          </tr>
-
-        </table>
-
-      </div>
-      <div class="column column1-3 menuRight">
-
-        <p>Prices are subject to change whenever we feel like it.</p>
-
+        <div class="coffee-image"></div>
 
       </div>
 
-      <div class="clear"></div>
+      <div class='column1-3 column'>  
+
+        <blockquote>"The best coffee in town."</blockquote>
+
+        <h3>-Amy blond</h3>
+
+      </div>
+      
+    </div>
+    
+  </div>
+  <!-- END CALLOUT -->
+
+  <div class="clear"></div>
+
+  <!-- COLORED CALLOUT-->
+  <div class="colored-callout">
+
+    <div class="container">
+      
+      <h1>Why Hawk Coffee?!</h1>
+
+      <a><p class="cta">About Us</p></a>
 
     </div>
+
   </div>
+  <!-- END COLORED CALLOUT -->
 
+  <div class="menu_wrapper">
 
-<!-- FOOTER  -->
-<div class="footer-wrapper">
+    <div class="container">
 
-  <p>You can visit us at</p>
+      <div class="column column2-3 menu">
 
-  <ul>
+          <table class="menu-table">
 
-    <li>1222a west nowhereville</li>
+            <th colspan="2">Menu</th>
+            
+            <tr>
 
-    <li>Madeupcity, IN</li>
+              <td>Coffee</td>
+        
+              <td>$1.50</td>
 
-    <li>55555</li>
+            </tr>
+        
+            <tr>
 
-  </ul>
+              <td>Capacino</td>
+        
+              <td>$3.50</td>
 
-</div>
+            </tr>
+        
+            <tr>
 
-<!-- END FOOTER -->
+              <td>Expresso</td>
+        
+              <td>$3.75</td>
 
-</body>
+            </tr>
+        
+            <tr>
 
-<!-- END BODY -->
+              <td>The Hawk Special</td>
+        
+              <td>$1.50</td>
+
+            </tr>
+        
+            <tr>
+
+              <td>Angry Bird Gets the Worm</td>
+        
+              <td>$4.50</td>
+
+            </tr>
+
+          </table>
+
+        </div>
+        
+        <div class="column column1-3 menuRight">
+
+          <p>Prices are subject to change whenever we feel like it.</p>
+
+        </div>
+
+        <div class="clear"></div>
+
+      </div>
+   
+    </div>
+
+  <div class="footer-wrapper">  <!-- FOOTER  -->
+
+    <footer>
+
+      <p>You can visit us at</p>
+
+      <ul>
+
+        <li>1222a west nowhereville</li>
+
+        <li>Madeupcity, IN</li>
+
+        <li>55555</li>
+
+      </ul>
+
+    </footer>
+
+  </div><!-- END FOOTER -->
+
+</body><!-- END BODY -->
 
 </html>
